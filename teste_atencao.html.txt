@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Atenção</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .linha {
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .elemento {
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input[type="checkbox"] {
+            margin-top: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Teste de Atenção</h1>
+    <p>Marque a caixa ao lado do número ou letra conforme a instrução que você está visualizando.</p>
+    
+    <div class="linha">
+        <div class="elemento">
+            <span>8</span>
+            <input type="checkbox" id="item1">
+        </div>
+        <div class="elemento">
+            <span>E</span>
+            <input type="checkbox" id="item2">
+        </div>
+        <div class="elemento">
+            <span>4</span>
+            <input type="checkbox" id="item3">
+        </div>
+        <div class="elemento">
+            <span>7</span>
+            <input type="checkbox" id="item4">
+        </div>
+        <div class="elemento">
+            <span>9</span>
+            <input type="checkbox" id="item5">
+        </div>
+        <div class="elemento">
+            <span>2</span>
+            <input type="checkbox" id="item6">
+        </div>
+        <div class="elemento">
+            <span>6</span>
+            <input type="checkbox" id="item7">
+        </div>
+        <div class="elemento">
+            <span>E</span>
+            <input type="checkbox" id="item8">
+        </div>
+    </div>
+
+    <!-- Repita a estrutura para as outras linhas -->
+    <div class="linha">
+        <div class="elemento">
+            <span>1</span>
+            <input type="checkbox" id="item9">
+        </div>
+        <div class="elemento">
+            <span>7</span>
+            <input type="checkbox" id="item10">
+        </div>
+        <div class="elemento">
+            <span>5</span>
+            <input type="checkbox" id="item11">
+        </div>
+        <div class="elemento">
+            <span>8</span>
+            <input type="checkbox" id="item12">
+        </div>
+        <div class="elemento">
+            <span>3</span>
+            <input type="checkbox" id="item13">
+        </div>
+        <div class="elemento">
+            <span>0</span>
+            <input type="checkbox" id="item14">
+        </div>
+        <div class="elemento">
+            <span>E</span>
+            <input type="checkbox" id="item15">
+        </div>
+        <div class="elemento">
+            <span>7</span>
+            <input type="checkbox" id="item16">
+        </div>
+    </div>
+
+    <!-- Continue assim para as próximas linhas -->
+    
+</body>
+</html>
